@@ -1,9 +1,6 @@
-def sumNum(num):
-    previousNum = 0
-    for i in range(num):
-        sum = previousNum + i
-        print("Current Number", i, "Previous Number ", previousNum," Sum: ", sum)
-        previousNum = i
-
-print("Printing current and previous number sum in a given range(10)")
-sumNum(10)
+num = list(range(10))
+previousNum = 0
+for i in num:
+    sum = previousNum + i
+    print('Current Number '+ str(i) + 'Previous Number ' + str(previousNum) + 'is ' + str(sum)
+    previousNum=i
