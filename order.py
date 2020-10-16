@@ -1,4 +1,4 @@
-num = list(range(10))
+num = list[25,15,22,45]
 previousNum = 0
 for i in num:
     sum = previousNum + i
